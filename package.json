@@ -10,6 +10,10 @@
     "rr": "npm run adb && adb shell input text \"rr\""
   },
   "dependencies": {
+    "@nozbe/watermelondb": "^0.6.0",
+    "@nozbe/with-observables": "^0.1.1",
+    "es6-symbol": "^3.1.1",
+    "jsc-android": "224109.x.x",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
     "react": "16.4.1",
@@ -24,6 +28,7 @@
     "redux-persist": "^5.10.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "7.0.0-beta.47",
     "babel-jest": "23.4.2",
     "babel-preset-react-native": "^5",
     "jest": "23.5.0",
